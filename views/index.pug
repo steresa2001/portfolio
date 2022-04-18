@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+    h1 Recent Projects
+    p Below you can see some of my recent projects.
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each val in projects
+        .cell
+          a(href=`/project/${val.id}`)
+            img.thumbnail(src=val.image_urls[0], alt=`${val.project_name}`)
+            h5 #{val.project_name}
+

@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
+    h1= err.message 
+    h2= err.status 

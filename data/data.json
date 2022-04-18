@@ -1,0 +1,59 @@
+{
+  "data": {
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Employee Directory",
+        "description": "A directory for a list of employees. You can filter the employee list by name. Clicking on an employee card opens a modal containing more information about the employee. You can use the dynamic modal pagination to navigate through employees.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://steresa2001.github.io/employee_directory/",
+        "github_link": "https://github.com/steresa2001/employee_directory",
+        "image_urls": [
+          "/static/images/employee_directory/employee_directory_main_lg.jpg",
+          "/static/images/employee_directory/employee_directory_modal_lg.jpg"
+        ]
+      },
+      {
+        "id": 1,
+        "project_name": "Interactive Form",
+        "description": "A dynamic interactive form that has custom client side validation built in.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://steresa2001.github.io/InteractiveForm/",
+        "github_link": "https://github.com/steresa2001/InteractiveForm",
+        "image_urls": [
+          "/static/images/interactive_form/interactive_form_main_lg.jpg",
+          "/static/images/interactive_form/interactive_form_bottom_lg.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "project_name": "Phrase Hunter",
+        "description": "An interactive game where a user needs to guess a phrase. The user can either click on a letter or use the keyboard. The user will have 5 chances to complete the phrase",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "OOP (Object-Oriented Programming)"
+        ],
+        "live_link": "https://steresa2001.github.io/PhraseHunter/",
+        "github_link": "https://github.com/steresa2001/PhraseHunter",
+        "image_urls": [
+          "/static/images/phrase_hunter/phrase_hunter_main_lg.jpg",
+          "/static/images/phrase_hunter/phrase_hunter_game_over_lg.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "project_name": "Quote Generator",
+        "description": "A simple app that generates random quotes. A user can also trigger a random quote by clicking on the quote button.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://steresa2001.github.io/QuoteGenerator/",
+        "github_link": "https://github.com/steresa2001/QuoteGenerator",
+        "image_urls": [
+          "/static/images/quote_generator/quote_generator_main_lg.jpg",
+          "/static/images/quote_generator/quote_generator_mobile.jpg"
+        ]
+      }
+    ]
+  }
+}
