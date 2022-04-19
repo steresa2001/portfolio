@@ -53,6 +53,18 @@
           "/static/images/quote_generator/quote_generator_main_lg.jpg",
           "/static/images/quote_generator/quote_generator_mobile.jpg"
         ]
+      },
+      {
+        "id": 4,
+        "project_name": "Student List",
+        "description": "UI that displays a list of students. There is the ability to filter the students by first or last name.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://steresa2001.github.io/StudentList/",
+        "github_link": "https://github.com/steresa2001/StudentList",
+        "image_urls": [
+          "/static/images/student_list/student_list_main_lg.jpg",
+          "/static/images/student_list/student_list_mobile.jpg"
+        ]
       }
     ]
   }
