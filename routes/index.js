@@ -10,11 +10,17 @@ router.get("/", (req, res) => {
 router.get("/about", (req, res) => {
   res.render("about", { name: "Steven Gore", isAboutPage: true });
 });
-router.get("/project/:id", (req, res) => {
+router.get("/project/:id", (req, res, next) => {
   const id = req.params.id;
-  res.render("project", {
-    projects: projects[id],
-  });
+  if (projects[id]) {
+    res.render("project", {
+      projects: projects[id],
+    });
+  } else {
+    const error = new Error("We couldn't find what you are looking for");
+    error.status = 404;
+    next(error);
+  }
 });
 
 module.exports = router;
