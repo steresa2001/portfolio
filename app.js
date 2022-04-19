@@ -27,11 +27,10 @@ app.use((err, req, res, next) => {
   console.log(err.status);
   if (err.status === 404) {
     res.status(err.status);
-    res.render("./not-found", { err });
-  }
-  if (err.status === 500) {
-    res.status(err.status);
-    res.render("./error", { err });
+    res.render("not-found", { err });
+  } else {
+    res.status(err.status || 500);
+    res.render("error", { err });
   }
 });
 
